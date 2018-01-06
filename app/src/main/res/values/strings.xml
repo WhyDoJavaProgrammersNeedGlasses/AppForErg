@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App für den ERG Vortrag</string>
+    <string name="app_caesar_text">Bei dieser auf das 3. Jahrtausend vor Christi zurückgehenden Verschlüssselung handelt
+        es sich um einfaches Austauschen eines Buchstabens durch einen Anderen, bei der einfach sozusagen das Alphabet verschoben wird (siehe Darstellung). </string>
+    <string name="title_activity_caesar_normal_info">CaesarNormalInfo</string>
+    <string name="large_text">
+       Bei der auf Julius Cäsar zurückgehenden Cäsar-Verschlüsselung wird jeder Buchstabe des Klartexts auf einen durch einen anderen Buchstaben ausgetauscht.
+        Dieser Austausch ergibt sich, indem man die Zeichen eines Alphabets in der korrekten Reihenfolge um
+        eine bestimmte Anzahl zyklisch nach rechts verschiebt  (zyklisch heisst, dass man
+        beim Verschieben über Z hinaus wieder bei A anfangend weiterzählt). Die Anzahl der verschobenen
+        Zeichen bildet den Schlüssel, der für die auch später unverändert bleibt.\n\n\Um zu entschlüsseln wird die Differenz des Schlüssels zu 26 (= Anzahl Buchstaben im Alphabet)
+        genommen und mit dieser erneut Verschlüsselt.\n\n\n\n\n\n\n\n\n
+    </string>
+    <string name="large_text2">Hierbei wird das Chiffrat mit allen 26 möglichen Schlüsseln untersucht
+        und die jeweilige Buchstabenhäufigkeit analysiert.\n\nDie Buchstabenhäufigkeit die der ausgewählten Sprache respektiv deren Buchstabenhäufigkeit am nächsten kommt, wird mit
+        der insgesamten Differenz zur ausgewählten Sprache respektive deren Buchstabenhäufigkeit ausgegeben.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_caesar_automatic_info">CaesarAutomaticInfo</string>
+</resources>
