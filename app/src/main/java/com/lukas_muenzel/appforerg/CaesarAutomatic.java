@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.content.pm.ActivityInfo;
 
 public class CaesarAutomatic extends AppCompatActivity {
     static Lenguage german = new Lenguage(new double[]{5.58,
@@ -16,6 +17,8 @@ public class CaesarAutomatic extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caesar_automatic);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         final Button acceptButton = (Button) findViewById(R.id.acceptAuto);
 

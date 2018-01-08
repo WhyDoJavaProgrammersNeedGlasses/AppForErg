@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.EditText;
+import android.content.pm.ActivityInfo;
 
 public class CaesarNormal extends AppCompatActivity {
 
@@ -21,6 +22,7 @@ public class CaesarNormal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caesar_normal);
 
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         final Button acceptButton = (Button) findViewById(R.id.acceptNormal);
 

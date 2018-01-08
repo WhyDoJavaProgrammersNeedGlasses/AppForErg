@@ -11,7 +11,7 @@
         Zeichen bildet den Schlüssel, der für die auch später unverändert bleibt.\n\n\Um zu entschlüsseln wird die Differenz des Schlüssels zu 26 (= Anzahl Buchstaben im Alphabet)
         genommen und mit dieser erneut Verschlüsselt.\n\n\n\n\n\n\n\n\n
     </string>
-    <string name="large_text2">Hierbei wird das Chiffrat mit allen 26 möglichen Schlüsseln untersucht
+    <string name="text_caesar">Hierbei wird das Chiffrat mit allen 26 möglichen Schlüsseln untersucht
         und die jeweilige Buchstabenhäufigkeit analysiert.\n\nDie Buchstabenhäufigkeit die der ausgewählten Sprache respektiv deren Buchstabenhäufigkeit am nächsten kommt, wird mit
         der insgesamten Differenz zur ausgewählten Sprache respektive deren Buchstabenhäufigkeit ausgegeben.</string>
     <string name="action_settings">Settings</string>

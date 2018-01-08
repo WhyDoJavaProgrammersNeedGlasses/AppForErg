@@ -9,23 +9,23 @@
 
     <EditText
         android:id="@+id/inputAuto"
-        android:layout_width="360dp"
-        android:layout_height="62dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="365dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="79dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Eingabe"
-        app:layout_constraintBottom_toTopOf="@+id/acceptAuto"
+        app:layout_constraintBottom_toTopOf="@+id/outputAuto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/acceptAuto"
-        android:layout_width="351dp"
+        android:layout_width="373dp"
         android:layout_height="54dp"
         android:layout_marginBottom="11dp"
         android:layout_marginEnd="16dp"
@@ -42,14 +42,13 @@
 
     <TextView
         android:id="@+id/outputAuto"
-        android:layout_width="0dp"
+        android:layout_width="377dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="13dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Ausgabe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/acceptAuto" />
+        app:layout_constraintTop_toBottomOf="@+id/inputAuto" />
 </android.support.constraint.ConstraintLayout>
